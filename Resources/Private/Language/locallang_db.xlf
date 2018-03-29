@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-03-29T11:02:12Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="palette.tx_csnewsextend_fields">
+			<source>cs_news_extend Fields</source>
+		</trans-unit>
+		<trans-unit id="tx_news_domain_model_news.tx_csnewsextend_location">
+			<source>Location</source>
+		</trans-unit>
+		<trans-unit id="tx_news_domain_model_tag.tx_csnewsextend_color">
+			<source>Color</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

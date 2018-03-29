@@ -1,0 +1,48 @@
+config.tx_extbase {
+	// override tag
+	objects {
+		GeorgRinger\News\Domain\Model\Tag {
+			className = Clickstorm\CsNewsExtend\Domain\Model\Tag
+		}
+	}
+
+	persistence {
+		classes {
+			Clickstorm\CsNewsExtend\Domain\Model\Tag {
+				mapping {
+					tableName = tx_news_domain_model_tag
+				}
+			}
+
+	// override news
+			GeorgRinger\News\Domain\Model\News {
+				subclasses {
+					0 = Clickstorm\CsNewsExtend\Domain\Model\NewsDefault
+					1 = Clickstorm\CsNewsExtend\Domain\Model\NewsInternal
+					2 = Clickstorm\CsNewsExtend\Domain\Model\NewsExternal
+				}
+			}
+
+			Clickstorm\CsNewsExtend\Domain\Model\NewsDefault {
+				mapping {
+					recordType = 0
+					tableName = tx_news_domain_model_news
+				}
+			}
+
+			Clickstorm\CsNewsExtend\Domain\Model\NewsInternal {
+				mapping {
+					recordType = 1
+					tableName = tx_news_domain_model_news
+				}
+			}
+
+			Clickstorm\CsNewsExtend\Domain\Model\NewsExternal {
+				mapping {
+					recordType = 2
+					tableName = tx_news_domain_model_news
+				}
+			}
+		}
+	}
+}

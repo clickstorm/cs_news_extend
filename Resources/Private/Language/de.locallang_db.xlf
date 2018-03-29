@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2018-03-29T11:02:12Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="palette.tx_csnewsextend_fields" approved="yes">
+			<source>cs_news_extend Fields</source>
+			<target>cs_news_extend Felder</target>
+		</trans-unit>
+		<trans-unit id="tx_news_domain_model_news.tx_csnewsextend_location" approved="yes">
+			<source>Location</source>
+			<target>Ort</target>
+		</trans-unit>
+		<trans-unit id="tx_news_domain_model_tag.tx_csnewsextend_color" approved="yes">
+			<source>Color</source>
+			<target>Farbe</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

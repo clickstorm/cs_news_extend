@@ -1,0 +1,27 @@
+{
+  "name": "clickstorm/cs_news_extend",
+  "type": "typo3-cms-extension",
+  "description": "Example how to extend news records",
+  "keywords": [
+    "TYPO3",
+    "extbase",
+    "news"
+  ],
+  "homepage": "https://www.clickstorm.de",
+  "authors": [
+    {
+      "name": "Marc Hirdes",
+      "role": "Developer"
+    }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+    "typo3/cms-core": "^7.6 || ^8.7",
+    "georgringer/news": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Clickstorm\\CsNewsExtend\\": "Classes"
+    }
+  }
+}
